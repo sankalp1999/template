@@ -1,0 +1,28 @@
+{
+    "testCases": [
+      {
+        "name": "Get All Items",
+        "description": "Test the GET /menuItems endpoint. Should return a list of all menu items with status 200 OK."
+      },
+      {
+        "name": "Get Item by ID (Valid ID)",
+        "description": "Test the GET /menuItems/{id} endpoint with a valid ID. Should return the menu item with the given ID and status 200 OK."
+      },
+      {
+        "name": "Get Item by ID (Invalid ID)",
+        "description": "Test the GET /menuItems/{id} endpoint with an invalid ID. Should return status 404 Not Found."
+      },
+      {
+        "name": "Create Item",
+        "description": "Test the POST /menuItems endpoint. Should create a new menu item and return the created menu item with status 201 Created."
+      },
+      {
+        "name": "Delete Item (Valid ID)",
+        "description": "Test the DELETE /menuItems/{id} endpoint with a valid ID. Should delete the menu item with the given ID and return status 204 No Content."
+      },
+      {
+        "name": "Delete Item (Invalid ID)",
+        "description": "Test the DELETE /menuItems/{id} endpoint with an invalid ID. Should return status 404 Not Found."
+      }
+    ]
+  }
